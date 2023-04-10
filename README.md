@@ -74,8 +74,9 @@ for x in myresult:
 -------------------------------------------------------------------------
 
   
-  <h2>select in all elements</h2>
-  c1 = ds.cursor()
+h2>select in all elements</h2>
+<pre>
+c1 = ds.cursor()
 c1.execute("select * from students")
 n1 = c1.fetchall()
 
@@ -86,3 +87,4 @@ PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/P
 (1, 'AC1Q34', 'suryask', '9', datetime.date(2023, 4, 12))
 (2, 'AQ567', 'jonny', '10', None)
 (3, 'AC1Q34', 'jonny', '10', datetime.date(2017, 4, 12))
+</pre>
