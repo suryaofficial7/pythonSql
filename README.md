@@ -74,7 +74,7 @@ for x in myresult:
 -------------------------------------------------------------------------
 
   
-h2>select in all elements</h2>
+<h2>select in all elements</h2>
 <pre>
 c1 = ds.cursor()
 c1.execute("select * from students")
@@ -88,3 +88,22 @@ PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/P
 (2, 'AQ567', 'jonny', '10', None)
 (3, 'AC1Q34', 'jonny', '10', datetime.date(2017, 4, 12))
 </pre>
+-------------------------------------------------------------------------
+  
+  
+    
+<h2>select specifc text</h2>
+<pre>
+c1 = ds.cursor()
+c1.execute("select * from students")
+n1 = c1.fetchall()
+
+for i in n1:
+      print(i[<b>Give index</b>])
+      break
+<b>OUTPUT</b>
+PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/Python311/python.exe d:/AAA/PYTHON/studentResult/db.py
+suryask
+</pre>
+-------------------------------------------------------------------------
+  
