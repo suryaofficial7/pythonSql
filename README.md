@@ -93,7 +93,7 @@ PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/P
   
     
 <h2>select specifc text</h2>
-```
+<pre>
 c1 = ds.cursor()
 c1.execute("select * from students")
 n1 = c1.fetchall()
@@ -104,6 +104,6 @@ for i in n1:
 <b>OUTPUT</b>
 PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/Python311/python.exe d:/AAA/PYTHON/studentResult/db.py
 suryask
-```
+</pre>
 -------------------------------------------------------------------------
   
