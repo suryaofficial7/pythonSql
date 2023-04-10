@@ -33,7 +33,7 @@ Make sure you define the name of the database when you create the connection
 
 
 Create a table named "customers":
-
+<pre>
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -46,14 +46,14 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
-
+</pre>
 -------------------------------------------------------------------------
 Select From a Table
 To select from a table in MySQL, use the "SELECT" statement:
 
 
 Select all records from the "customers" table, and display the result:
-
+<pre>
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -71,12 +71,14 @@ myresult = mycursor.fetchall()
 
 for x in myresult:
   print(x)
+  
+  </pre>
 -------------------------------------------------------------------------
 
-  
-<h2>select in all elements</h2>
+  <pre>
+select in all elements
 
-c1 = ds.cursor() \n
+c1 = ds.cursor()
 c1.execute("select * from students")
 n1 = c1.fetchall()
 
@@ -87,12 +89,13 @@ PS D:\AAA\PYTHON\studentResult> d:/AAA/PYTHON/studentResult/db.py
 (1, 'AC1Q34', 'suryask', '9', datetime.date(2023, 4, 12))
 (2, 'AQ567', 'jonny', '10', None)
 (3, 'AC1Q34', 'jonny', '10', datetime.date(2017, 4, 12))
+</pre>
 -----------------------------------------------------------------
   
   
     
 <h2>select specifc text</h2>
-
+<pre>
 c1 = ds.cursor()
 c1.execute("select * from students")
 n1 = c1.fetchall()
@@ -103,6 +106,6 @@ for i in n1:
 output
 PS D:\AAA\PYTHON\studentResult>  d:/AAA/PYTHON/studentResult/db.py
 suryask
-
+</pre>
 -------------------------------------------------------------------------
   
