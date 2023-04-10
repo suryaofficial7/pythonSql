@@ -82,7 +82,7 @@ n1 = c1.fetchall()
 
 for i in n1:
       print(i)
-<b>OUTPUT</b>
+OUTPUT
 PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/Python311/python.exe d:/AAA/PYTHON/studentResult/db.py
 (1, 'AC1Q34', 'suryask', '9', datetime.date(2023, 4, 12))
 (2, 'AQ567', 'jonny', '10', None)
@@ -101,7 +101,7 @@ n1 = c1.fetchall()
 for i in n1:
       print(i[Give index])
       break
-<b>OUTPUT</b>
+**OUTPUT**
 PS D:\AAA\PYTHON\studentResult> & C:/Users/surya/AppData/Local/Programs/Python/Python311/python.exe d:/AAA/PYTHON/studentResult/db.py
 suryask
 </pre>
