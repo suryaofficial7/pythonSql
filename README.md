@@ -94,7 +94,7 @@ PS D:\AAA\PYTHON\studentResult> d:/AAA/PYTHON/studentResult/db.py
   
   
     
-<h2>select specifc text</h2>
+select specifc text
 <pre>
 c1 = ds.cursor()
 c1.execute("select * from students")
